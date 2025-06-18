@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "sqlite-operational": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "/Users/myownip/db_dev/procurement_operational.db"
+      ]
+    },
+    "sqlite-analytics": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "/Users/myownip/db_dev/procurement_analytics.db"
+      ]
+    }
+  }
+}
