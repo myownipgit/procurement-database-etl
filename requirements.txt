@@ -1,0 +1,57 @@
+# Procurement Database ETL Pipeline Dependencies
+# ==============================================
+
+# Core Python packages
+sqlite3  # Built-in Python module (no installation needed)
+pathlib  # Built-in Python module (no installation needed)
+os       # Built-in Python module (no installation needed)
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database and ETL utilities
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # For PostgreSQL support (future)
+
+# Logging and monitoring
+loguru>=0.7.0
+rich>=13.0.0            # For beautiful console output
+
+# Configuration management
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Testing and quality assurance
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+
+# Development tools
+pre-commit>=3.0.0
+
+# Optional: For advanced analytics and visualization
+# Uncomment if needed for enhanced reporting features
+# plotly>=5.0.0
+# dash>=2.0.0
+# jupyter>=1.0.0
+# seaborn>=0.12.0
+# matplotlib>=3.7.0
+
+# Optional: For integration with cloud databases
+# Uncomment if needed for cloud deployments
+# snowflake-connector-python>=3.0.0
+# google-cloud-bigquery>=3.0.0
+# boto3>=1.26.0  # For AWS integration
+
+# Optional: For advanced ETL frameworks
+# Uncomment if migrating to more sophisticated ETL
+# apache-airflow>=2.5.0
+# prefect>=2.0.0
+# dbt-core>=1.5.0
